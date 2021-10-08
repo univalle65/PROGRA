@@ -14,7 +14,9 @@ public class MotivoMulta {
     private String Descripcion;
     private int valor;
 
-    public MotivoMulta(short codigo, String Descripcion, int valor) {
+    public MotivoMulta(short codigo, String Descripcion, int valor)throws Exception {
+
+     
         this.codigo = codigo;
         this.Descripcion = Descripcion;
         this.valor = valor;
