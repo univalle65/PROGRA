@@ -95,7 +95,9 @@ public class Multa {
   
     
     
-    
+public List<MotivoMulta> getListaMultas() {
+    return ListaMultas;
+}    
     
     
     
